@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.Website", "SignLanguage.Website\SignLanguage.Website.csproj", "{8EEAB522-8306-4E2C-A05D-F1453F63BD02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.Models", "SignLanguage.Models\SignLanguage.Models.csproj", "{562B80D1-B2D6-4355-A32E-EF5DC31F9F42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.Test", "SignLanguage.Test\SignLanguage.Test.csproj", "{2CA3B4CE-DCE8-4016-B19C-AA5B10A44F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.Logic", "SignLanguage.Logic\SignLanguage.Logic.csproj", "{F715672D-127F-4896-BE1E-969F75ACF6D8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SignLanguage.Database", "SignLanguage.Database\SignLanguage.Database.sqlproj", "{6155B2C7-B72E-432C-A6FB-D659FD951A84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.ADO", "SignLanguage.ADO\SignLanguage.ADO.csproj", "{71ABB0BD-3114-4627-9524-EF9258EC374F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EEAB522-8306-4E2C-A05D-F1453F63BD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEAB522-8306-4E2C-A05D-F1453F63BD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEAB522-8306-4E2C-A05D-F1453F63BD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEAB522-8306-4E2C-A05D-F1453F63BD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B80D1-B2D6-4355-A32E-EF5DC31F9F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B80D1-B2D6-4355-A32E-EF5DC31F9F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B80D1-B2D6-4355-A32E-EF5DC31F9F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B80D1-B2D6-4355-A32E-EF5DC31F9F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA3B4CE-DCE8-4016-B19C-AA5B10A44F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA3B4CE-DCE8-4016-B19C-AA5B10A44F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA3B4CE-DCE8-4016-B19C-AA5B10A44F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA3B4CE-DCE8-4016-B19C-AA5B10A44F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F715672D-127F-4896-BE1E-969F75ACF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F715672D-127F-4896-BE1E-969F75ACF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F715672D-127F-4896-BE1E-969F75ACF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F715672D-127F-4896-BE1E-969F75ACF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6155B2C7-B72E-432C-A6FB-D659FD951A84}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{71ABB0BD-3114-4627-9524-EF9258EC374F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ABB0BD-3114-4627-9524-EF9258EC374F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ABB0BD-3114-4627-9524-EF9258EC374F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ABB0BD-3114-4627-9524-EF9258EC374F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB1396BC-291C-486C-9D15-065E0E8D6A57}
+	EndGlobalSection
+EndGlobal

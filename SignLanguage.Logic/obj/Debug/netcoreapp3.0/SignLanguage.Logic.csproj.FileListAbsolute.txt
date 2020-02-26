@@ -1,0 +1,8 @@
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.deps.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.csprojAssemblyReference.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.AssemblyInfoInputs.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.AssemblyInfo.cs
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.pdb

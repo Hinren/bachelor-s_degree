@@ -1,0 +1,23 @@
+﻿@model List<SignLanguage.Models.GoodMeaningWords>
+@using SignLanguage.Website.HtmlHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="col-lg-6" style="margin-top: 5px;">
+            <button id="@i" class="form-control" style=" background-color: #FFA500;"><p>@Model[i].Meaning</p></button>
+
+            <div class="views-row views-row-@i views-row-odd" style="display: none">
+                @Html.DisplayImageOrVideoFor(Model[i].Url, i)
+            </div>
+        </div>
+    }
+
+</div>
+

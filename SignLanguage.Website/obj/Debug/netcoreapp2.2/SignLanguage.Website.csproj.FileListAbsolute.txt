@@ -1,0 +1,98 @@
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.deps.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.dev.json
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.dll
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csprojAssemblyReference.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfoInputs.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfo.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.TagHelpers.input.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.TagHelpers.output.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorCoreGenerate.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorTargetAssemblyInfo.cache
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorTargetAssemblyInfo.cs
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.Views.dll
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.Views.pdb
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.Views.pdb
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.dll
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+E:\Programowanie projekty\lic\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CopyComplete
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.deps.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.dev.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csprojAssemblyReference.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cs
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfoInputs.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfo.cs
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CopyComplete
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.Development.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.deps.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.dev.json
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.dll
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.dll
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.pdb
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csprojAssemblyReference.cache
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cache
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cs
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfoInputs.cache
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfo.cs
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CopyComplete
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.dll
+d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.Development.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\appsettings.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.deps.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.dev.json
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.dll
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.dll
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.pdb
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csprojAssemblyReference.cache
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cache
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cs
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfoInputs.cache
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.AssemblyInfo.cs
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CopyComplete
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.dll
+e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb

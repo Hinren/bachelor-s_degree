@@ -1,0 +1,13 @@
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.deps.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.dev.json
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.csprojAssemblyReference.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfoInputs.cache
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfo.cs
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
+C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb

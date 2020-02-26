@@ -1,0 +1,100 @@
+﻿@model List<SignLanguage.Models.Models.StartQuiz>
+@using SignLanguage.Website.HtmlHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .selected {
+        background-color: yellow;
+    }
+
+    .show-correct {
+        background-color: green;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .big-btn {
+        display: block;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .points-container {
+        margin-top: 20px;
+    }
+
+    .modal-dialog {
+        width: 800px;
+        margin: 30px auto;
+    }
+</style>
+
+<h2 style="text-align:center;">Wybierz co oznaczają poszczególne zdjęcia lub filmy</h2>
+<hr />
+<div class="main-container col-lg-12">
+    <div class="row">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="col-lg-6">
+
+                @Html.DisplayImageOrVideoFor(Model[i].url, i)
+
+                @if (Model[i].url.Contains("youtube"))
+                {
+                    <button style="margin:auto;display:block; margin-top:3px;"
+                            type="button" class="btn btn-info btn-lg @i"
+                            data-toggle="modal"
+                            data-target="#myModal">
+                        Powiększ
+                    </button>
+                }
+                else
+                {
+                    <button style="margin:auto;display:block; margin-top:10px;"
+                            type="button" class="btn btn-info btn-lg @i"
+                            data-toggle="modal"
+                            data-target="#myModal">
+                        Powiększ
+                    </button>
+                }
+
+                <div class="row" id="@i">
+                    @for (int j = 0; j < Model[i].WordsToDisplay.Count; j++)
+                    {
+                        @if (@Model[i].WordsToDisplay[j].IsCorrect)
+                        {
+                            <button id="@i" onclick="selectButton(this)" class="answer correct col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].WordsToDisplay[j].Meaning</button>
+                        }
+                        else
+                        {
+                            <button id="@i" onclick="selectButton(this);" class="answer col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].WordsToDisplay[j].Meaning</button>
+                        }
+                    }
+                </div>
+            </div>
+        }
+
+        <div class="row">
+            <div class="points-container">
+                <button class="check-points big-btn col-lg-12" id="save-value-to-send-points" onclick="">Sprawdzam odpowiedzi</button>
+                <div class="points hide">Punkty: <span>0</span></div>
+                <button class="show-answers big-btn col-lg-12">Pokaż poprawne odpowiedzi</button>
+                @using (Html.BeginForm("Index", "Quiz", new { area = "Quiz" }, FormMethod.Post))
+                {
+                    <button class="clear big-btn col-lg-12" id="send-points" name ="scoreButton" type="submit">Zagraj jeszcze raz</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
