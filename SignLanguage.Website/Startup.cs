@@ -1,24 +1,29 @@
 ﻿using System;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SignLanguage.ADO;
 using SignLanguage.Models;
+using SignLanguage.EF;
+using SignLanguage.Website.Models;
 
 namespace SignLanguage.Website
 {
     public class Startup
     {
+        //TODO TASK
+        //1. Make correct login, registered and type User
+        //2. Models for ASP.net AND OTHER MODELS FOR EF 
+        //3. CRUD FOR MANAGE DATA ON PAGE
+        //4. PAGING FOR "NAUKA"
+        //5. LEANR ABOUT MVVC ETC
+        //6 VALIDATIONS 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -62,9 +67,12 @@ namespace SignLanguage.Website
             });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-    
-            services.AddDbContext<SignlanguageDatabaseContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("SignLanguage.Database")));
+            services.AddDbContext<SignLanguageContex>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("MyConnection"));
+            });
+
+            services.AddIdentity<ApplicationUser, ApplicationRole>
+                (options => options.Stores.MaxLengthForKeys = 128);
 
         }
 

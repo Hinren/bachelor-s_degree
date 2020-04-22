@@ -1,4 +1,4 @@
-﻿@model List<SignLanguage.Models.Models.StartQuiz>
+﻿@model List<SignLanguage.Models.QuizViewModel>
 @using SignLanguage.Website.HtmlHelpers
 
 @{
@@ -48,9 +48,9 @@
         {
             <div class="col-lg-6">
 
-                @Html.DisplayImageOrVideoFor(Model[i].url, i)
+                @Html.DisplayImageOrVideoFor(Model[i].Url, i)
 
-                @if (Model[i].url.Contains("youtube"))
+                @*if (Model[i].Url.Contains("youtube"))
                 {
                     <button style="margin:auto;display:block; margin-top:3px;"
                             type="button" class="btn btn-info btn-lg @i"
@@ -67,18 +67,18 @@
                             data-target="#myModal">
                         Powiększ
                     </button>
-                }
+                }*@
 
                 <div class="row" id="@i">
-                    @for (int j = 0; j < Model[i].WordsToDisplay.Count; j++)
+                    @for (int j = 0; j < Model[i].Quizzes.Count; j++)
                     {
-                        @if (@Model[i].WordsToDisplay[j].IsCorrect)
+                        @if (@Model[i].Quizzes[j].IsCorrect)
                         {
-                            <button id="@i" onclick="selectButton(this)" class="answer correct col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].WordsToDisplay[j].Meaning</button>
+                            <button id="@i" onclick="selectButton(this)" class="answer correct col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].Quizzes[j].Meaning</button>
                         }
                         else
                         {
-                            <button id="@i" onclick="selectButton(this);" class="answer col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].WordsToDisplay[j].Meaning</button>
+                            <button id="@i" onclick="selectButton(this);" class="answer col-lg-5" style="margin-left: 30px; margin-top: 10px; margin-bottom:10px;">@Model[i].Quizzes[j].Meaning</button>
                         }
                     }
                 </div>

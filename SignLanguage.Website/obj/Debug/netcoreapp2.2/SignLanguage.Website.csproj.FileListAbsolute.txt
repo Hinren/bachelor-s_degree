@@ -82,12 +82,10 @@ e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\Sig
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.runtimeconfig.dev.json
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.dll
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Website.pdb
-e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.dll
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
 e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
-e:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.ADO.pdb
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csprojAssemblyReference.cache
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cache
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.RazorAssemblyInfo.cs
@@ -96,3 +94,5 @@ e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\Sig
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CopyComplete
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.dll
 e:\GITHUB\University_licentiate\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.EF.dll
+E:\GITHUB\University_licentiate\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.EF.pdb

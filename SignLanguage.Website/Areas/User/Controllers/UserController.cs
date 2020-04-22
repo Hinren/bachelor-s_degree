@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SignLanguage.ADO;
+using SignLanguage.EF;
 using SignLanguage.Logic;
 using SignLanguage.Models;
-using SignLanguage.Models.Models;
 using SignLanguage.Website.Controllers;
+using System;
 using System.Linq;
 
 namespace SignLanguage.Website.Areas.User.Controllers
@@ -14,6 +14,13 @@ namespace SignLanguage.Website.Areas.User.Controllers
     [Area("User")]
     public class UserController : BaseController
     {
+        private readonly SignLanguageContex contex;
+
+        public UserController(SignLanguageContex contex)
+        {
+            this.contex = contex;
+        }
+
         [AllowAnonymous]
         [HttpGet]
         public ActionResult Login()
@@ -25,16 +32,10 @@ namespace SignLanguage.Website.Areas.User.Controllers
         [HttpPost]
         public ActionResult Login(UserLogin userLogin)
         {
-            //TODO Make more safety this part of program. Is not good practise, but actually i need user in controller
-            using (var contex = new SignlanguageDatabaseContext())
-            {
-                var userData = contex.Users.Where(x => x.Login == userLogin.Login && x.Password == userLogin.Password).FirstOrDefault();
-                StaticUser.IdUser = userData.IdUser;
-                StaticUser.UserRole = userData.UserRole;
-                StaticUser.Email = userData.Email;
-            }
-            return RedirectToAction("Learn", "Learning", new { area = "Learning" });
+            var userData = contex.Users.Where(x => x.Login == userLogin.Login && x.Password == userLogin.Password).FirstOrDefault();
+            return View();
         }
+
         [AllowAnonymous]
         [HttpGet]
         public ActionResult Register()
@@ -42,13 +43,27 @@ namespace SignLanguage.Website.Areas.User.Controllers
             UserRegister userRegister = new UserRegister();
             return View(userRegister);
         }
+
         [AllowAnonymous]
         [HttpPost]
-        public ActionResult Register(UserRegister userRegister)
+        public ActionResult Register(UserRegister viewUserRegister)
         {
             if (ModelState.IsValid)
             {
-                RegisterUser.CreateNewAccount(userRegister);
+                CryptographyProcessor cryptographyProcessor = new CryptographyProcessor();
+                var hashedPassword = cryptographyProcessor.GenerateHash(viewUserRegister.Password);
+
+                ADOUser userDatabase = new ADOUser();
+                userDatabase.Email = viewUserRegister.Email;
+                userDatabase.Login = viewUserRegister.Login;
+                userDatabase.Password = hashedPassword;
+                userDatabase.IdUser = Guid.NewGuid().ToString("N");
+                userDatabase.PasswordExpiredDate = DateTime.Now.AddMonths(2);
+                userDatabase.UserRole = 1;
+                userDatabase.EmailConfirmed = true;
+                contex.Users.Add(userDatabase);
+                contex.SaveChanges();
+                //RegisterUser.CreateNewAccount(userRegister);
                 return View();
             }
             else

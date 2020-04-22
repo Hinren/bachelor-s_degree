@@ -34,6 +34,7 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\SignLanguage.EF\SignLanguage.EF.csproj" />
     <ProjectReference Include="..\SignLanguage.Logic\SignLanguage.Logic.csproj" />
     <ProjectReference Include="..\SignLanguage.Models\SignLanguage.Models.csproj" />
   </ItemGroup>

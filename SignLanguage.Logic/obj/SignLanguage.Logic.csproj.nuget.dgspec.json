@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {}
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {}
   },
   "projects": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\SignLanguage.ADO.csproj": {
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\SignLanguage.ADO.csproj",
-        "projectName": "SignLanguage.ADO",
-        "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\SignLanguage.ADO.csproj",
+        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectName": "SignLanguage.EF",
+        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\obj\\",
+        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,11 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {
-              "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
-                "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -45,15 +41,7 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -78,14 +66,14 @@
         }
       }
     },
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
         "projectName": "SignLanguage.Logic",
-        "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
         "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\obj\\",
+        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -104,11 +92,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\SignLanguage.ADO.csproj": {
-                "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.ADO\\SignLanguage.ADO.csproj"
+              "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+                "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj"
               },
-              "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
-                "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj"
+              "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+                "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj"
               }
             }
           }
@@ -122,6 +110,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -143,14 +135,14 @@
         }
       }
     },
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "projectName": "SignLanguage.Models",
-        "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\obj\\",
+        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

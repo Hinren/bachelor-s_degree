@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -23,24 +26,18 @@
             <div class="container">
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        @if (SignLanguage.Models.Models.StaticUser.IdUser == null)
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Register">Rejestracja</a>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Learning" asp-controller="Learning" asp-action="Learn">Nauka</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Quiz" asp-controller="Quiz" asp-action="Index">Quiz</a>
-                            </li>
-                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Register">Rejestracja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Learning" asp-controller="Learning" asp-action="Learn">Nauka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Quiz" asp-controller="Quiz" asp-action="Index">Quiz</a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {}
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {}
   },
   "projects": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "projectName": "SignLanguage.Models",
-        "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Models\\obj\\",
+        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

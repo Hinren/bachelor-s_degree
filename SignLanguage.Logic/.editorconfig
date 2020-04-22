@@ -2,3 +2,6 @@
 
 # EF1000: Possible SQL injection vulnerability.
 dotnet_diagnostic.EF1000.severity = none
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none

@@ -1,48 +1,60 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SignLanguage.EF;
+using SignLanguage.Logic;
+using SignLanguage.Website.Controllers;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using SignLanguage.ADO;
-using SignLanguage.Logic;
-using SignLanguage.Models;
-using SignLanguage.Models.Models;
-using SignLanguage.Website.Controllers;
 
 namespace SignLanguage.Website.Areas.Quiz.Controllers
 {
     [Area("Quiz")]
     public class QuizController : BaseController
     {
+        private readonly SignLanguageContex dbContext;
+
+        public QuizController(SignLanguageContex dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
-            List<SpModel> quizData = CRUDQuiz.HowManyAreBadMeaningToEachGoodMeaning();
-            if (quizData.Count > 10)
-            {
-                var finalData = CRUDQuiz.GetDataToStartQuiz(quizData);
-                return View(finalData);
-            }
-            else
-            {
-                SetMessageInfo("Nie ma wystarczająco dużo danych by rozpocząć quiz");
-                return RedirectToAction("Index", "Home");
-            }
-        }
+            List<StartQuiz> badMeaningWords = new List<StartQuiz>();
 
-        [HttpPost]
-        public IActionResult Index(string scoreButton)
-        {
-            UsersScoreQuiz saveScoreQuiz = new UsersScoreQuiz();
+            PrepareDataToStartQuiz prepareDataToStartQuiz = new PrepareDataToStartQuiz();
+
+            var goodMeaningWords = dbContext.Query<GetIdWithMoreThan3BadMeaning>()
+                .AsNoTracking()
+                .FromSql(string.Format("EXECUTE GetIdWithMoreThan3BadMeaning")).ToList();
+
+            foreach (var words in goodMeaningWords)
+            {
+                badMeaningWords.AddRange(dbContext.Query<StartQuiz>()
+                    .AsNoTracking()
+                    .FromSql(string.Format("EXECUTE StartQuiz " + words.IdGoodMeaningWord.ToString()))
+                    .ToList());
+            }
+
+            var finalData = prepareDataToStartQuiz.GetFinalData(badMeaningWords, goodMeaningWords);
+
+
+           return View(finalData);
+       }
+
+       [HttpPost]
+       public IActionResult Index(string scoreButton)
+       {
+           /* UsersScoreQuiz saveScoreQuiz = new UsersScoreQuiz();
             saveScoreQuiz.HowManyQustion = 10;
             saveScoreQuiz.IdUser = StaticUser.IdUser;
             saveScoreQuiz.EffectivenessInPercent = decimal.Parse(scoreButton) / 10;
 
             CRUDQuiz.saveScoreQuizzes(saveScoreQuiz);
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index");*/
+            return View();
         }
     }
 }

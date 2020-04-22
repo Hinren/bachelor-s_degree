@@ -17,3 +17,9 @@ C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Database\o
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Database\obj\Debug\refactor.xml
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Database\obj\Debug\postdeploy.sql
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Database\obj\Debug\predeploy.sql
+E:\GITHUB\University_licentiate\SignLanguage.Database\bin\Debug\SignLanguage.Database.dacpac
+E:\GITHUB\University_licentiate\SignLanguage.Database\bin\Debug\SignLanguage.Database.dll
+E:\GITHUB\University_licentiate\SignLanguage.Database\bin\Debug\SignLanguage.Database.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.dll
+E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.sqlprojAssemblyReference.cache

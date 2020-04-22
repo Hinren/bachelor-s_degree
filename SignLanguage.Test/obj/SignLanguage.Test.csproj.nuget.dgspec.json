@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj": {}
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj": {}
   },
   "projects": {
-    "e:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj": {
+    "E:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj",
+        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj",
         "projectName": "SignLanguage.Test",
-        "projectPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj",
+        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Test\\SignLanguage.Test.csproj",
         "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "e:\\GITHUB\\University_licentiate\\SignLanguage.Test\\obj\\",
+        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

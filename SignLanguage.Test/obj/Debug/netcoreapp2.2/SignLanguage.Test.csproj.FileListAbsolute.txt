@@ -11,3 +11,16 @@ C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\D
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfo.cs
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.deps.json
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.json
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.dev.json
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.dll
+E:\GITHUB\University_licentiate\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.csprojAssemblyReference.cache
+E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfoInputs.cache
+E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfo.cs
+E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
+E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb

@@ -1,0 +1,8 @@
+E:\GITHUB\University_licentiate\SignLanguage.EF\bin\Debug\netcoreapp3.1\SignLanguage.EF.deps.json
+E:\GITHUB\University_licentiate\SignLanguage.EF\bin\Debug\netcoreapp3.1\SignLanguage.EF.dll
+E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp3.1\SignLanguage.EF.csprojAssemblyReference.cache
+E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp3.1\SignLanguage.EF.AssemblyInfoInputs.cache
+E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp3.1\SignLanguage.EF.AssemblyInfo.cs
+E:\GITHUB\University_licentiate\SignLanguage.EF\bin\Debug\netcoreapp3.1\SignLanguage.EF.pdb
+E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp3.1\SignLanguage.EF.dll
+E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp3.1\SignLanguage.EF.pdb

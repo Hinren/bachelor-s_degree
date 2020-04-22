@@ -27,9 +27,7 @@ d:\111\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp2.2\Si
 e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.deps.json
 e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
 e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
-e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.ADO.dll
 e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
-e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.ADO.pdb
 e:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csprojAssemblyReference.cache
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.AssemblyInfoInputs.cache
@@ -37,3 +35,5 @@ e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignL
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csproj.CopyComplete
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.dll
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+E:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.dll
+E:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.pdb

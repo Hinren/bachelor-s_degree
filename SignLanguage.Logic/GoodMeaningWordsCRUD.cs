@@ -1,4 +1,4 @@
-﻿using SignLanguage.ADO;
+﻿using SignLanguage.EF;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,16 +7,16 @@ namespace SignLanguage.Logic
 {
     public class GoodMeaningWordsCRUD
     {
-        public static List<SignLanguage.Models.GoodMeaningWords> GetWordsToLearn()
+        public static List<GoodMeaningWords> GetWordsToLearn()
         {
-            var context = new SignlanguageDatabaseContext();
-            List<SignLanguage.Models.GoodMeaningWords> repoGoodMeaningWords = new List<SignLanguage.Models.GoodMeaningWords>();
+            var context = new SignLanguageContex();
+            List<GoodMeaningWords> repoGoodMeaningWords = new List<GoodMeaningWords>();
 
             var goodMeaningWords = context.GoodMeaningWords;
 
             foreach (var word in goodMeaningWords)
             {
-                repoGoodMeaningWords.Add(new SignLanguage.Models.GoodMeaningWords
+                repoGoodMeaningWords.Add(new GoodMeaningWords
                 {
                     IdGoodMeaningWord = word.IdGoodMeaningWord,
                     Meaning = word.Meaning,

@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SignLanguage.ADO\SignLanguage.ADO.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SignLanguage.EF\SignLanguage.EF.csproj" />
     <ProjectReference Include="..\SignLanguage.Models\SignLanguage.Models.csproj" />
   </ItemGroup>
 

@@ -1,18 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
+using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SignLanguage.ADO;
 
 
 namespace SignLanguage.Website.Controllers
 {
     public class BaseController : Controller
     {
-        //public Users CurrentUser { get; set; }
+        public override void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext context)
+        {
+            string name = (string)context.RouteData.Values["Controller"];
+            string action = (string)context.RouteData.Values["Action"];
+
+            base.OnActionExecuting(context);
+        }
 
         #region Wyświetlanie komunikatów
         protected void SetMessageDanger(string text)
