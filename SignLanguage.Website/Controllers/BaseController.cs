@@ -3,21 +3,24 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace SignLanguage.Website.Controllers
 {
     public class BaseController : Controller
     {
-        public override void OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext context)
+        public override void OnActionExecuting(ActionExecutingContext actionExecutingContex)
         {
-            string name = (string)context.RouteData.Values["Controller"];
-            string action = (string)context.RouteData.Values["Action"];
+            string name = (string)actionExecutingContex.RouteData.Values["Controller"];
+            string action = (string)actionExecutingContex.RouteData.Values["Action"];
+            string httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
+            //Save later to database all activity users on website
 
-            base.OnActionExecuting(context);
+            base.OnActionExecuting(actionExecutingContex);
         }
 
-        #region Wyświetlanie komunikatów
+        #region displaying messages
+
         protected void SetMessageDanger(string text)
         {
             SetMessageDanger(text, null);
@@ -52,22 +55,22 @@ namespace SignLanguage.Website.Controllers
         }
         private void SetMessage(string tempDataKey, string text, IEnumerable<string> additionalMessages)
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(text);
-
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine(text);
 
             if (additionalMessages != null)
             {
-                sb.AppendLine("<ul>");
+                stringBuilder.AppendLine("<ul>");
                 foreach (var message in additionalMessages)
                 {
-                    sb.AppendLine("<li>" + message + "</li>");
+                    stringBuilder.AppendLine("<li>" + message + "</li>");
                 }
-                sb.AppendLine("</ul>");
+                stringBuilder.AppendLine("</ul>");
             }
 
-            TempData[tempDataKey] = sb.ToString();
+            TempData[tempDataKey] = stringBuilder.ToString();
         }
+
         #endregion
     }
 }

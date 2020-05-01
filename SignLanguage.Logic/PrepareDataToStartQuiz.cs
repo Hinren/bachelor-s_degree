@@ -9,22 +9,21 @@ namespace SignLanguage.Logic
 {
     public class PrepareDataToStartQuiz
     {
-        private readonly SignLanguageContex dbContext;
-
 
         public List<QuizViewModel> GetFinalData(List<StartQuiz> badMeaningWords, List<GetIdWithMoreThan3BadMeaning> goodMeaningWords)
         {
-            List<QuizViewModel> quizViewModels = new List<QuizViewModel>();
+            var quizViewModels = new List<QuizViewModel>();
 
             foreach (var goodMeaningWord in goodMeaningWords)
             {
-                List<Quiz> quizzes = new List<Quiz>();
-                quizzes.Add(
-                    new Quiz 
-                    { 
+                var quizzes = new List<Quiz>
+                {
+                    new Quiz
+                    {
                         Meaning = goodMeaningWord.GoodMeaning
-                        , IsCorrect = true 
-                    });
+                        , IsCorrect = true
+                    }
+                };
 
                 var selectBadMeaningWordsToGoodMeaning = badMeaningWords
                     .Where(x => x.IdGoodMeaningWord == goodMeaningWord.IdGoodMeaningWord);
@@ -48,20 +47,20 @@ namespace SignLanguage.Logic
             return quizViewModels;
         }
 
-        private static List<E> ShuffleList<E>(List<E> inputList)
+        private static List<T> ShuffleList<T>(List<T> inputList)
         {
-            List<E> randomList = new List<E>();
+            var randomList = new List<T>();
 
-            Random r = new Random();
+            Random randomNumber = new Random();
             int randomIndex = 0;
             while (inputList.Count > 0)
             {
-                randomIndex = r.Next(0, inputList.Count); //Choose a random object in the list
-                randomList.Add(inputList[randomIndex]); //add it to the new, random list
-                inputList.RemoveAt(randomIndex); //remove to avoid duplicates
+                randomIndex = randomNumber.Next(0, inputList.Count); 
+                randomList.Add(inputList[randomIndex]); 
+                inputList.RemoveAt(randomIndex);
             }
 
-            return randomList; //return the new random list
+            return randomList; 
         }
     }
 }

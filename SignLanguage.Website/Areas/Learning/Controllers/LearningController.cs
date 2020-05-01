@@ -12,31 +12,19 @@ namespace SignLanguage.Website.Areas.Learning.Controllers
     [Area("Learning")]
     public class LearningController : BaseController
     {
-        private readonly SignLanguageContex context;
+        private readonly SignLanguageContex databaseContext;
 
-        public LearningController(SignLanguageContex context)
+        public LearningController(SignLanguageContex databaseContext)
         {
-            this.context = context;
+            this.databaseContext = databaseContext;
         }
 
         [HttpGet]
         public ActionResult Learn()
         {
-            List<GoodMeaningWords> repoGoodMeaningWords = new List<GoodMeaningWords>();
+            var goodMeaningWords = databaseContext.GoodMeaningWords.ToList();
 
-            var goodMeaningWords = context.GoodMeaningWords.ToList();
-
-            foreach (var word in goodMeaningWords)
-            {
-                repoGoodMeaningWords.Add(new GoodMeaningWords
-                {
-                    IdGoodMeaningWord = word.IdGoodMeaningWord,
-                    Meaning = word.Meaning,
-                    Url = word.Url
-                });
-            }
-
-            return View(repoGoodMeaningWords);
+            return View(goodMeaningWords);
         }
     }
 }

@@ -23,3 +23,8 @@ E:\GITHUB\University_licentiate\SignLanguage.Database\bin\Debug\SignLanguage.Dat
 E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.dll
 E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.pdb
 E:\GITHUB\University_licentiate\SignLanguage.Database\obj\Debug\SignLanguage.Database.sqlprojAssemblyReference.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\bin\Debug\SignLanguage.Database.dacpac
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\bin\Debug\SignLanguage.Database.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\bin\Debug\SignLanguage.Database.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\SignLanguage.Database.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\SignLanguage.Database.pdb

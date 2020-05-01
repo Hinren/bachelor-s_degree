@@ -6,3 +6,17 @@ C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.AssemblyInfo.cs
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.dll
 C:\Users\pwisniewski\Desktop\Licencjat\Nowy\SignLanguage\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.deps.json
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Logic.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.EF.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Models.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.EF.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp3.0\SignLanguage.Models.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.csprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.csproj.CoreCompileInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.AssemblyInfoInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.AssemblyInfo.cs
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.csproj.CopyComplete
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp3.0\SignLanguage.Logic.pdb

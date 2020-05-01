@@ -24,3 +24,17 @@ E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLa
 E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfo.cs
 E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
 E:\GITHUB\University_licentiate\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.deps.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.runtimeconfig.dev.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\bin\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.csproj.CoreCompileInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfoInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.AssemblyInfo.cs
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.genruntimeconfig.cache

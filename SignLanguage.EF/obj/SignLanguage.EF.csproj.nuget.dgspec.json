@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj": {}
+    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {}
   },
   "projects": {
-    "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "projectName": "SignLanguage.EF",
-        "projectPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\SignLanguage.EF.csproj",
-        "packagesPath": "C:\\Users\\hirek\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\University_licentiate\\SignLanguage.EF\\obj\\",
+        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
+        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hirek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -62,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

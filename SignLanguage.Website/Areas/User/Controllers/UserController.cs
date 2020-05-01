@@ -14,11 +14,11 @@ namespace SignLanguage.Website.Areas.User.Controllers
     [Area("User")]
     public class UserController : BaseController
     {
-        private readonly SignLanguageContex contex;
+        private readonly SignLanguageContex databaseContext;
 
-        public UserController(SignLanguageContex contex)
+        public UserController(SignLanguageContex databaseContext)
         {
-            this.contex = contex;
+            this.databaseContext = databaseContext;
         }
 
         [AllowAnonymous]
@@ -28,11 +28,12 @@ namespace SignLanguage.Website.Areas.User.Controllers
             UserLogin userLogin = new UserLogin();
             return View(userLogin);
         }
+
         [AllowAnonymous]
         [HttpPost]
         public ActionResult Login(UserLogin userLogin)
         {
-            var userData = contex.Users.Where(x => x.Login == userLogin.Login && x.Password == userLogin.Password).FirstOrDefault();
+            var userData = databaseContext.Users.Where(x => x.Login == userLogin.Login && x.Password == userLogin.Password).FirstOrDefault();
             return View();
         }
 
@@ -61,8 +62,8 @@ namespace SignLanguage.Website.Areas.User.Controllers
                 userDatabase.PasswordExpiredDate = DateTime.Now.AddMonths(2);
                 userDatabase.UserRole = 1;
                 userDatabase.EmailConfirmed = true;
-                contex.Users.Add(userDatabase);
-                contex.SaveChanges();
+                databaseContext.Users.Add(userDatabase);
+                databaseContext.SaveChanges();
                 //RegisterUser.CreateNewAccount(userRegister);
                 return View();
             }

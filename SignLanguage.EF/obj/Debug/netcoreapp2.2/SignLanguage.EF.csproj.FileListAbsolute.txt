@@ -6,3 +6,11 @@ E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLang
 E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.AssemblyInfo.cs
 E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.dll
 E:\GITHUB\University_licentiate\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp2.2\SignLanguage.EF.deps.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp2.2\SignLanguage.EF.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp2.2\SignLanguage.EF.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.csproj.CoreCompileInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.AssemblyInfoInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.AssemblyInfo.cs
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.pdb

@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[BadMeaningWords] (Table)
+       [dbo].[GoodMeaningWords] (Table)
+       [dbo].[Users] (Table)
+       [dbo].[UsersScoreQuiz] (Table)
+       [dbo].[GetIdWithMoreThan3BadMeaning] (Procedure)
+       [dbo].[StartQuiz] (Procedure)
+
+** Supporting actions

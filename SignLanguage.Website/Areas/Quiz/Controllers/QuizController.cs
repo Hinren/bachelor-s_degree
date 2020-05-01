@@ -11,11 +11,11 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
     [Area("Quiz")]
     public class QuizController : BaseController
     {
-        private readonly SignLanguageContex dbContext;
+        private readonly SignLanguageContex databaseContext;
 
-        public QuizController(SignLanguageContex dbContext)
+        public QuizController(SignLanguageContex databaseContext)
         {
-            this.dbContext = dbContext;
+            this.databaseContext = databaseContext;
         }
 
         [HttpGet]
@@ -25,15 +25,17 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
 
             PrepareDataToStartQuiz prepareDataToStartQuiz = new PrepareDataToStartQuiz();
 
-            var goodMeaningWords = dbContext.Query<GetIdWithMoreThan3BadMeaning>()
+            var goodMeaningWords = databaseContext.Query<GetIdWithMoreThan3BadMeaning>()
                 .AsNoTracking()
                 .FromSql(string.Format("EXECUTE GetIdWithMoreThan3BadMeaning")).ToList();
 
             foreach (var words in goodMeaningWords)
             {
-                badMeaningWords.AddRange(dbContext.Query<StartQuiz>()
+                #pragma warning disable EF1000 // Possible SQL injection vulnerability.
+                badMeaningWords.AddRange(databaseContext.Query<StartQuiz>()
                     .AsNoTracking()
                     .FromSql(string.Format("EXECUTE StartQuiz " + words.IdGoodMeaningWord.ToString()))
+                #pragma warning restore EF1000 // Possible SQL injection vulnerability.
                     .ToList());
             }
 

@@ -1,0 +1,9 @@
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp3.0\SignLanguage.Models.deps.json
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp3.0\SignLanguage.Models.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp3.0\SignLanguage.Models.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.csprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.csproj.CoreCompileInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.AssemblyInfoInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.AssemblyInfo.cs
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp3.0\SignLanguage.Models.pdb

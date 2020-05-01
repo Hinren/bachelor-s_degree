@@ -37,3 +37,17 @@ e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignL
 e:\GITHUB\University_licentiate\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
 E:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.dll
 E:\GITHUB\University_licentiate\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.deps.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.EF.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csprojAssemblyReference.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csproj.CoreCompileInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.AssemblyInfoInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.AssemblyInfo.cs
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csproj.CopyComplete
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.pdb

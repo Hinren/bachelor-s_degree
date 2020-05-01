@@ -11,6 +11,7 @@ namespace SignLanguage.Website.Controllers
 {
     public class HomeController : BaseController
     {
+
         public IActionResult Index()
         {
             return RedirectToAction("Login", "User", new { area = "User" });

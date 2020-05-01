@@ -1,0 +1,9 @@
+d:\REPOSITORY\bachelor-s_degree\asdsaads\bin\Debug\netcoreapp3.1\asdsaads.deps.json
+d:\REPOSITORY\bachelor-s_degree\asdsaads\bin\Debug\netcoreapp3.1\asdsaads.dll
+d:\REPOSITORY\bachelor-s_degree\asdsaads\bin\Debug\netcoreapp3.1\asdsaads.pdb
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.csprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.csproj.CoreCompileInputs.cache
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.AssemblyInfoInputs.cache
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.AssemblyInfo.cs
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.dll
+d:\REPOSITORY\bachelor-s_degree\asdsaads\obj\Debug\netcoreapp3.1\asdsaads.pdb

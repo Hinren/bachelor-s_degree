@@ -1,0 +1,9 @@
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp3.0\SignLanguage.EF.deps.json
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp3.0\SignLanguage.EF.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\bin\Debug\netcoreapp3.0\SignLanguage.EF.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.csprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.csproj.CoreCompileInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.AssemblyInfoInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.AssemblyInfo.cs
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.dll
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp3.0\SignLanguage.EF.pdb

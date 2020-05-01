@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.Logic", "SignL
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SignLanguage.Database", "SignLanguage.Database\SignLanguage.Database.sqlproj", "{6155B2C7-B72E-432C-A6FB-D659FD951A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignLanguage.EF", "SignLanguage.EF\SignLanguage.EF.csproj", "{DC47E680-0B7B-4039-B52D-713AAB5C15F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignLanguage.EF", "SignLanguage.EF\SignLanguage.EF.csproj", "{DC47E680-0B7B-4039-B52D-713AAB5C15F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

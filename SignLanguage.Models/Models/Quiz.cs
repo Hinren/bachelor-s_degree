@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SignLanguage.Models
+﻿namespace SignLanguage.Models
 {
     public class Quiz
     {

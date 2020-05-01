@@ -22,3 +22,12 @@ e:\GITHUB\University_licentiate\SignLanguage.Models\obj\Debug\netcoreapp2.2\Sign
 e:\GITHUB\University_licentiate\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.AssemblyInfo.cs
 e:\GITHUB\University_licentiate\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.dll
 e:\GITHUB\University_licentiate\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp2.2\SignLanguage.Models.deps.json
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp2.2\SignLanguage.Models.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\bin\Debug\netcoreapp2.2\SignLanguage.Models.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.csprojAssemblyReference.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.csproj.CoreCompileInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.AssemblyInfoInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.AssemblyInfo.cs
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Models\obj\Debug\netcoreapp2.2\SignLanguage.Models.pdb

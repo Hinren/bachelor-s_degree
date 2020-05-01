@@ -1,0 +1,6 @@
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.csprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.csproj.CoreCompileInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.MvcApplicationPartsAssemblyInfo.cs
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.MvcApplicationPartsAssemblyInfo.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.AssemblyInfoInputs.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp3.0\SignLanguage.Website.AssemblyInfo.cs
