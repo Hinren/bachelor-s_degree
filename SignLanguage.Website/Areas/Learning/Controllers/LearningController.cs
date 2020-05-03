@@ -22,6 +22,8 @@ namespace SignLanguage.Website.Areas.Learning.Controllers
         [HttpGet]
         public ActionResult Learn()
         {
+            throw new Exception("Didn't work");
+
             var goodMeaningWords = databaseContext.GoodMeaningWords.ToList();
 
             return View(goodMeaningWords);

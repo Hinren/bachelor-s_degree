@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SignLanguage.EF;
 using SignLanguage.Logic;
 using SignLanguage.Models;
 using SignLanguage.Website.Controllers;
+using SignLanguage.Website.Models;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SignLanguage.Website.Areas.User.Controllers
 {
@@ -14,7 +17,68 @@ namespace SignLanguage.Website.Areas.User.Controllers
     [Area("User")]
     public class UserController : BaseController
     {
-        private readonly SignLanguageContex databaseContext;
+        private UserManager<ApplicationUser> userManager { get; }
+        private SignInManager<ApplicationUser> signInUser { get; }
+        public UserController(UserManager<ApplicationUser> userMgr, SignInManager<ApplicationUser> signInUser)
+        {
+            this.userManager = userMgr;
+            this.signInUser = signInUser;
+        }
+
+        public async Task<IActionResult> Register()
+        {
+            try
+            {
+                ViewBag.Message = "User already registered";
+
+                ApplicationUser user = await userManager.FindByNameAsync("Test");
+
+
+                await userManager.AddToRoleAsync(user, "Admin");
+                if (user == null)
+                {
+                    user = new ApplicationUser();
+                    user.UserName = "Test";
+                    user.Email = "Test@dupa.com";
+                    user.UserId = Guid.NewGuid().ToString("N");
+
+                    IdentityResult result = await userManager.CreateAsync(user, "P@ssw0rd");
+
+                    await userManager.AddToRoleAsync(user, "Admin");
+                    ViewBag.Message = "User was created";
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Message = ex.Message;
+            }
+            return View();
+        }
+
+
+        public async Task<IActionResult> Login()
+        {
+            var result = await signInUser.PasswordSignInAsync("Test", "P@ssw0rd", false, false);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await signInUser.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
+
+
+        /*private readonly SignLanguageContex databaseContext;
 
         public UserController(SignLanguageContex databaseContext)
         {
@@ -33,7 +97,9 @@ namespace SignLanguage.Website.Areas.User.Controllers
         [HttpPost]
         public ActionResult Login(UserLogin userLogin)
         {
-            var userData = databaseContext.Users.Where(x => x.Login == userLogin.Login && x.Password == userLogin.Password).FirstOrDefault();
+            CryptographyProcessor cryptographyProcessor = new CryptographyProcessor();
+            string hashedPassword = cryptographyProcessor.GenerateHash(userLogin.Password);
+            var userData = databaseContext.Users.Where(x => x.Login == userLogin.Login && x.Password == hashedPassword).FirstOrDefault();
             return View();
         }
 
@@ -72,6 +138,6 @@ namespace SignLanguage.Website.Areas.User.Controllers
                 SetMessageWarning("", ModelState.Values.SelectMany(v => v.Errors).Where(me => me != null).Select(me => me.ErrorMessage));
                 return View();
             }
-        }
+        } */
     }
 }

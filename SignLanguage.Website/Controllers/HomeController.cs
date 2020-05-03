@@ -14,7 +14,7 @@ namespace SignLanguage.Website.Controllers
 
         public IActionResult Index()
         {
-            return RedirectToAction("Login", "User", new { area = "User" });
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

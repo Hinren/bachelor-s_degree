@@ -19,6 +19,7 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
         }
 
         [HttpGet]
+        //[Authorize(Policy = "dupa")]
         public IActionResult Index()
         {
             List<StartQuiz> badMeaningWords = new List<StartQuiz>();

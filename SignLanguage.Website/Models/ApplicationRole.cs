@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SignLanguage.Website.Models
 {
-    public class ApplicationRole : IdentityRole
+    public class ApplicationRole : IdentityRole<int>
     {
-        public ICollection<ApplicationUserRole> UserRoles { get; set; }
+        //public string RoleName { get; set; }
     }
 }

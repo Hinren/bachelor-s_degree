@@ -38,3 +38,4 @@ D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLa
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.dll
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.pdb
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.genruntimeconfig.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Test\obj\Debug\netcoreapp2.2\SignLanguage.Test.csprojAssemblyReference.cache

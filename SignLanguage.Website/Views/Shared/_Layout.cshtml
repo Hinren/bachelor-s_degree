@@ -26,15 +26,40 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Register">Rejestracja</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Learning" asp-controller="Learning" asp-action="Learn">Nauka</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Quiz" asp-controller="Quiz" asp-action="Index">Quiz</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="CreateRole">Rola</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item" style="float: right;">
+                                <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Logout">@User.Identity.Name, Logout</a>
+                            </li>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item" style="float: right;">
+                                    <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="Index">Panel administratora</a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Register">Rejestracja</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

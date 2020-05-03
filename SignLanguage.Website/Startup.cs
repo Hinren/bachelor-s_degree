@@ -12,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using SignLanguage.Models;
 using SignLanguage.EF;
 using SignLanguage.Website.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace SignLanguage.Website
 {
@@ -36,14 +39,17 @@ namespace SignLanguage.Website
         //TODO make Authorize action when user is logged in system
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
+            {
+                options.User.RequireUniqueEmail = true;
+            }).AddEntityFrameworkStores<IdentityAppContex>();
+
             services.AddDistributedMemoryCache();
 
             services.AddSession(options =>
             {
-                // Set a short timeout for easy testing.
                 options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
-                // Make the session cookie essential
                 options.Cookie.IsEssential = true;
             });
 
@@ -71,25 +77,21 @@ namespace SignLanguage.Website
                 options.UseSqlServer(Configuration.GetConnectionString("Sign"));
             });
 
-            services.AddIdentity<ApplicationUser, ApplicationRole>
-                (options => options.Stores.MaxLengthForKeys = 128);
+            services.AddDbContext<IdentityAppContex>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("Sign"));
+            });
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
-            else
-            {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -106,6 +108,27 @@ namespace SignLanguage.Website
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+
+        private async Task CreateUserRoles(IServiceProvider serviceProvider)
+        {
+            var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var UserManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+
+            IdentityResult roleResult;
+            //Adding Addmin Role  
+            var roleCheck = await RoleManager.RoleExistsAsync("Admin");
+            if (!roleCheck)
+            {
+                //create the roles and seed them to the database  
+                roleResult = await RoleManager.CreateAsync(new IdentityRole("Admin"));
+            }
+            //Assign Admin role to the main User here we have given our newly loregistered login id for Admin management  
+            ApplicationUser user = await UserManager.FindByEmailAsync("syedshanumcain@gmail.com");
+            var User = new ApplicationUser();
+            await UserManager.AddToRoleAsync(user, "Admin");
+
         }
     }
 }
