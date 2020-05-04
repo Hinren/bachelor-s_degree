@@ -14,10 +14,12 @@ namespace SignLanguage.Website.Areas.Administration.Controllers
     public class AdministrationController : BaseController
     {
         private readonly RoleManager<ApplicationRole> roleManager;
+        private UserManager<ApplicationUser> userManager { get; }
 
-        public AdministrationController(RoleManager<ApplicationRole> roleManager)
+        public AdministrationController(RoleManager<ApplicationRole> roleManager, UserManager<ApplicationUser> userManager)
         {
             this.roleManager = roleManager;
+            this.userManager = userManager;
         }
 
         [HttpGet]
@@ -49,6 +51,21 @@ namespace SignLanguage.Website.Areas.Administration.Controllers
             return View();
         }
 
+        public async Task<IActionResult> AssingRole()
+        {
+            var roles = roleManager.Roles.ToList();
+
+            roles.Where(x => x.Name == "Admin");
+            var user = await userManager.GetUserAsync(User);
+            await userManager.AddToRoleAsync(user, "Name of your role");
+            return View();
+        }
+
+        /*[HttpPost]
+        public async Task<IActionResult> AssingRole()
+        {
+
+        } */
         //Make edit/assing/delete role users
     }
 }

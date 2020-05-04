@@ -19,14 +19,25 @@ namespace SignLanguage.Website.Areas.User.Controllers
     {
         private UserManager<ApplicationUser> userManager { get; }
         private SignInManager<ApplicationUser> signInUser { get; }
-        public UserController(UserManager<ApplicationUser> userMgr, SignInManager<ApplicationUser> signInUser)
+        public UserController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInUser)
         {
-            this.userManager = userMgr;
+            this.userManager = userManager;
             this.signInUser = signInUser;
         }
 
-        public async Task<IActionResult> Register()
+        [AllowAnonymous]
+        [HttpGet]
+        public ActionResult Register()
         {
+            UserRegister userRegister = new UserRegister();
+            return View(userRegister);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(UserRegister userRegister)
+        {
+            var testtt = await userManager.GetUserAsync(User);
+
             try
             {
                 ViewBag.Message = "User already registered";
@@ -55,8 +66,16 @@ namespace SignLanguage.Website.Areas.User.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        [HttpGet]
+        public ActionResult Login()
+        {
+            UserLogin userLogin = new UserLogin();
+            return View(userLogin);
+        }
 
-        public async Task<IActionResult> Login()
+        [HttpPost]
+        public async Task<IActionResult> Login(UserLogin userLogin)
         {
             var result = await signInUser.PasswordSignInAsync("Test", "P@ssw0rd", false, false);
 

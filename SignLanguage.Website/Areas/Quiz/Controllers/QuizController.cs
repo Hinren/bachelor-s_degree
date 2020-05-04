@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SignLanguage.EF;
 using SignLanguage.Logic;
@@ -19,7 +20,7 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Policy = "dupa")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             List<StartQuiz> badMeaningWords = new List<StartQuiz>();

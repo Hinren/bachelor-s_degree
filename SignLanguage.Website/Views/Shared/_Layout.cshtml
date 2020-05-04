@@ -37,12 +37,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="CreateRole">Rola</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="AssingRole">Dodaj role</a>
+                        </li>
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item" style="float: right;">
+                            <li class="nav-item " style="float: right;">
                                 <a class="nav-link text-dark" asp-area="User" asp-controller="User" asp-action="Logout">@User.Identity.Name, Logout</a>
                             </li>
-
                             @if (User.IsInRole("Admin"))
                             {
                                 <li class="nav-item" style="float: right;">

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,9 +11,10 @@ namespace SignLanguage.Website.Models
 {
     public class IdentityAppContex : IdentityDbContext<ApplicationUser, ApplicationRole, int>
     {
-        public IdentityAppContex(DbContextOptions<IdentityAppContex> options) : base(options)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public IdentityAppContex(DbContextOptions<IdentityAppContex> options, IHttpContextAccessor httpContextAccessor) : base(options)
         {
-
+            _httpContextAccessor = httpContextAccessor;
         }
     }
 }

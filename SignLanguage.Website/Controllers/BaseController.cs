@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
@@ -15,7 +16,7 @@ namespace SignLanguage.Website.Controllers
             string action = (string)actionExecutingContex.RouteData.Values["Action"];
             string httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
             //Save later to database all activity users on website
-
+            
             base.OnActionExecuting(actionExecutingContex);
         }
 
