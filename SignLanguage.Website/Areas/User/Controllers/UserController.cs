@@ -77,14 +77,23 @@ namespace SignLanguage.Website.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UserLogin userLogin)
         {
-            var result = await signInUser.PasswordSignInAsync("Test", "P@ssw0rd", false, false);
-
-            if (result.Succeeded)
+            if (ModelState.IsValid)
             {
-                return RedirectToAction("Index", "Home");
+                var result = await signInUser.PasswordSignInAsync(userLogin.Login, userLogin.Password, false, false);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    SetMessageWarning("Podano niewłaściwe hasło i login");
+                    return View();
+                }
             }
             else
             {
+                SetMessageWarning("", ModelState.Values.SelectMany(v => v.Errors).Where(me => me != null).Select(me => me.ErrorMessage));
                 return View();
             }
         }
