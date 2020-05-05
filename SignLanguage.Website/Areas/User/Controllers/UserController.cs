@@ -38,32 +38,42 @@ namespace SignLanguage.Website.Areas.User.Controllers
         {
             var testtt = await userManager.GetUserAsync(User);
 
-            try
+            if (ModelState.IsValid)
             {
-                ViewBag.Message = "User already registered";
-
-                ApplicationUser user = await userManager.FindByNameAsync("Test");
-
-
-                await userManager.AddToRoleAsync(user, "Admin");
-                if (user == null)
+                string message = "";
+                try
                 {
-                    user = new ApplicationUser();
-                    user.UserName = "Test";
-                    user.Email = "Test@dupa.com";
-                    user.UserId = Guid.NewGuid().ToString("N");
+                    message = "User already registered";
 
-                    IdentityResult result = await userManager.CreateAsync(user, "P@ssw0rd");
+                    ApplicationUser user = await userManager.FindByNameAsync(userRegister.Login);
 
-                    await userManager.AddToRoleAsync(user, "Admin");
-                    ViewBag.Message = "User was created";
+                    if (user == null)
+                    {
+                        user = new ApplicationUser();
+                        user.UserName = userRegister.Login;
+                        user.PasswordHash = userRegister.Password;
+                        user.Email = userRegister.Email;
+                        user.EmailConfirmed = true;
+                        user.UserId = Guid.NewGuid().ToString("N");
+
+                        IdentityResult result = await userManager.CreateAsync(user, userRegister.Password);
+
+                        message = "User was created";
+                    }
                 }
+                catch (Exception ex)
+                {
+                    message += ex.Message;
+                }
+
+                SetMessageInfo(message);
+                return View();
             }
-            catch (Exception ex)
+            else
             {
-                ViewBag.Message = ex.Message;
+                SetMessageWarning("", ModelState.Values.SelectMany(v => v.Errors).Where(me => me != null).Select(me => me.ErrorMessage));
+                return View();
             }
-            return View();
         }
 
         [AllowAnonymous]
