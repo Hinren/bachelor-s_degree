@@ -34,13 +34,6 @@
                             <a class="nav-link text-dark" asp-area="Quiz" asp-controller="Quiz" asp-action="Index">Quiz</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="CreateRole">Rola</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="AssingRole">Dodaj role</a>
-                        </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item " style="float: right;">
@@ -48,8 +41,12 @@
                             </li>
                             @if (User.IsInRole("Admin"))
                             {
-                                <li class="nav-item" style="float: right;">
-                                    <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="Index">Panel administratora</a>
+                                <li class="nav-item dropdown btn-group">
+                                    <a class="nav-link dropdown-toggle text-dark" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Panel administratora</a>
+                                    <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                                        <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="AssingRole">Zarządzaj rolami użytkowników</a>
+                                        <a class="nav-link text-dark" asp-area="Administration" asp-controller="Administration" asp-action="CreateRole">Stwórz nową role</a>
+                                    </div>
                                 </li>
                             }
                         }

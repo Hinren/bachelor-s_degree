@@ -69,9 +69,6 @@
     <Build Include="Table\UsersScoreQuiz.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="SignLanguage.Database.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="InsertData\InsertData.sql" />
   </ItemGroup>
 </Project>

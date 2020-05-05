@@ -14,6 +14,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.jfm
 
 # Windows shortcuts
 *.lnk
@@ -21,3 +22,4 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+/SignLanguage.Database/SignLanguage.Database.dbmdl

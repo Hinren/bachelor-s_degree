@@ -14,3 +14,4 @@ D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLang
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.AssemblyInfo.cs
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.dll
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.EF\obj\Debug\netcoreapp2.2\SignLanguage.EF.csprojAssemblyReference.cache
