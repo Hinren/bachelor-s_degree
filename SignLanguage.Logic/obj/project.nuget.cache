@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5gtX18PcVlRjTd3cHBsy6WicXqRUM5qSTWrVtKGr++oH34XnWcHvip08cEQeQzeVF5DgqQYa+0DOCjXsNbT6Ug==",
+  "dgSpecHash": "4jAl/D9pUpJARNy7LzW8VFWXU0wqKHxPCDqXKyGGOxG1pMTXzhlu8Xm326dfkt9mMfGlwv6GqDMSVa8HjcbjeA==",
   "success": true,
-  "projectFilePath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+  "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.1\\fluentvalidation.aspnetcore.8.6.1.nupkg.sha512",
@@ -31,7 +31,7 @@
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc\\2.1.0\\microsoft.aspnetcore.mvc.2.1.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.apiexplorer\\2.1.0\\microsoft.aspnetcore.mvc.apiexplorer.2.1.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.cors\\2.1.0\\microsoft.aspnetcore.mvc.cors.2.1.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.dataannotations\\2.2.0\\microsoft.aspnetcore.mvc.dataannotations.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.aspnetcore.mvc.formatters.json\\2.1.0\\microsoft.aspnetcore.mvc.formatters.json.2.1.0.nupkg.sha512",

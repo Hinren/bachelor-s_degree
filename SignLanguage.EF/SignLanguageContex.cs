@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SignLanguage.EF.Models;
+using System;
+using System.Linq;
 
 namespace SignLanguage.EF
 {
@@ -17,7 +19,6 @@ namespace SignLanguage.EF
         {
         }
 
-        public DbSet<ADOUser> Users { get; set; }
         public DbSet<BadMeaningWords> BadMeaningWords { get; set; }
         public DbSet<GoodMeaningWords> GoodMeaningWords { get; set; }
         public DbSet<UsersScoreQuiz> UsersScoreQuiz { get; set; }
@@ -28,10 +29,6 @@ namespace SignLanguage.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-            modelBuilder.Entity<ADOUser>()
-                .HasKey(p => p.IdUser);
-
             modelBuilder.Entity<BadMeaningWords>()
                 .HasKey(p => p.IdBadMeaningWord);
 
@@ -43,7 +40,24 @@ namespace SignLanguage.EF
 
             modelBuilder.Entity<LogException>()
                 .HasKey(p => p.LogExceptionId);
+        }
 
+        public override int SaveChanges()
+        {
+            var errors = ChangeTracker
+               .Entries()
+               .Where(e =>  e.State != EntityState.Unchanged)
+               .Select(e => e.Metadata.Name)
+               .Distinct()
+               .ToList();
+
+            if (errors.Any())
+            {
+                throw new InvalidOperationException(
+                    $"Attempted to save read-only entities {string.Join(",", errors)}");
+            }
+
+            return base.SaveChanges();
         }
     }
 }

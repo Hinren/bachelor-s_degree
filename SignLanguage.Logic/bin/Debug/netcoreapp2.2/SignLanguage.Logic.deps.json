@@ -359,7 +359,7 @@
       },
       "Microsoft.AspNetCore.Mvc.ApiExplorer/2.1.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll": {
@@ -368,7 +368,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
+      "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
           "Microsoft.AspNetCore.Authorization.Policy": "2.2.0",
@@ -388,15 +388,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.0"
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.19109"
           }
         }
       },
       "Microsoft.AspNetCore.Mvc.Cors/2.1.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.1.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Cors.dll": {
@@ -407,7 +407,7 @@
       },
       "Microsoft.AspNetCore.Mvc.DataAnnotations/2.2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.Extensions.Localization": "2.2.0",
           "System.ComponentModel.Annotations": "4.7.0"
         },
@@ -421,7 +421,7 @@
       "Microsoft.AspNetCore.Mvc.Formatters.Json/2.1.0": {
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "2.1.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll": {
@@ -505,7 +505,7 @@
           "Microsoft.AspNetCore.Antiforgery": "2.1.0",
           "Microsoft.AspNetCore.Diagnostics.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Html.Abstractions": "2.1.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.0",
           "Microsoft.Extensions.WebEncoders": "2.1.0",
@@ -2074,7 +2074,9 @@
       },
       "SignLanguage.EF/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
           "SignLanguage.EF.dll": {}
@@ -2288,12 +2290,12 @@
       "path": "microsoft.aspnetcore.mvc.apiexplorer/2.1.0",
       "hashPath": "microsoft.aspnetcore.mvc.apiexplorer.2.1.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
+    "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ALiY4a6BYsghw8PT5+VU593Kqp911U3w9f/dH9/ZoI3ezDsDAGiObqPu/HP1oXK80Ceu0XdQ3F0bx5AXBeuN/Q==",
-      "path": "microsoft.aspnetcore.mvc.core/2.2.0",
-      "hashPath": "microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512"
+      "sha512": "sha512-/8sr8ixIUD57UFwUntha9bOwex7/AkZfdk1f9oNJG1Ek7p/uuKVa7fuHmYZpQOf35Oxrt+2Ku4WPwMSbNxOuWg==",
+      "path": "microsoft.aspnetcore.mvc.core/2.2.5",
+      "hashPath": "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Cors/2.1.0": {
       "type": "package",

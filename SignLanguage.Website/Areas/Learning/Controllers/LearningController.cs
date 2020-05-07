@@ -22,7 +22,7 @@ namespace SignLanguage.Website.Areas.Learning.Controllers
         [HttpGet]
         public ActionResult Learn()
         {
-            throw new Exception("Didn't work");
+            throw new Exception("dupa");
 
             var goodMeaningWords = databaseContext.GoodMeaningWords.ToList();
 

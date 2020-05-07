@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj": {}
+    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj": {}
   },
   "projects": {
-    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj": {
+    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
+        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
         "projectName": "SignLanguage.Test",
-        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
+        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\obj\\",
+        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

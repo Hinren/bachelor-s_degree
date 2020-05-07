@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using SignLanguage.EF.MetaData;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace SignLanguage.EF.Models
 {
     [Table("LogException")]
-    public class LogException
+    [ModelMetadataType(typeof(LogExceptionMetaData))]
+    public class LogException 
     {
         public int LogExceptionId { get; set; }
+        [Required]
+        [StringLength(1)]
+        [Column("ExceptionPath")]
         public string ExceptionPath { get; set; }
         public DateTime When { get; set; }
         public string ExceptionMessage { get; set; }
