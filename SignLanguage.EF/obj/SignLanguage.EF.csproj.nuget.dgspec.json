@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {}
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {}
   },
   "projects": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "projectName": "SignLanguage.EF",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,7 +44,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.2.6, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

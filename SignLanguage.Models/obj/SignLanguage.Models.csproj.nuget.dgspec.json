@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {}
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {}
   },
   "projects": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "projectName": "SignLanguage.Models",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

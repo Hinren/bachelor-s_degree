@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iNRY6WsHq4Ua/F6FBR7/pn6HyW2Yv0iGzXHfnNXHZ03oC72DUITA618bMdKWIWN5KajsFR3rcYxhag4VMbGIww==",
+  "dgSpecHash": "mmNBR9Hvlyjb3DXg+OPJb8U1HrSkqMwoJKkeyLiJfJm2eshksRXOpD1uC+79oHiGOgrVvetzIm+Kk/9yTmx/DA==",
   "success": true,
-  "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
+  "projectFilePath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Test\\SignLanguage.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

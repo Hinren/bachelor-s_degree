@@ -27,10 +27,6 @@
 
     <Folder Include="Areas\Administration\Data\" />
 
-    <Folder Include="Areas\Error\Controllers\" />
-
-    <Folder Include="Areas\Error\Views\error\" />
-
     <Folder Include="Areas\Learning\Data\" />
 
     <Folder Include="Areas\Learning\Models\" />

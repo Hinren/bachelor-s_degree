@@ -28,3 +28,8 @@ D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\bin\Debug\SignLanguage.Dat
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\bin\Debug\SignLanguage.Database.pdb
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\SignLanguage.Database.dll
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\SignLanguage.Database.pdb
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\SignLanguage.Database.sqlprojAssemblyReference.cache
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\Model.xml
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\refactor.xml
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\postdeploy.sql
+d:\REPOSITORY\bachelor-s_degree\SignLanguage.Database\obj\Debug\predeploy.sql

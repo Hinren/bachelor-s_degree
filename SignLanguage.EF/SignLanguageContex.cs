@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SignLanguage.EF.Models;
 
 namespace SignLanguage.EF
 {
@@ -20,14 +21,13 @@ namespace SignLanguage.EF
         public DbSet<BadMeaningWords> BadMeaningWords { get; set; }
         public DbSet<GoodMeaningWords> GoodMeaningWords { get; set; }
         public DbSet<UsersScoreQuiz> UsersScoreQuiz { get; set; }
+        public DbSet<LogException> LogExceptions { get; set; }
         public DbQuery<GetIdWithMoreThan3BadMeaning> GetIdWithMoreThan3BadMeaning { get; set; }
         public DbQuery<StartQuiz> StartQuiz { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
 
             modelBuilder.Entity<ADOUser>()
                 .HasKey(p => p.IdUser);
@@ -41,13 +41,9 @@ namespace SignLanguage.EF
             modelBuilder.Entity<UsersScoreQuiz>()
                 .HasKey(p => p.Id);
 
-            /*modelBuilder.Entity<ADOUser>(table =>
-            {
-                // Similar to the table variable above, this allows us to get
-                // an address variable that we can use to map the complex
-                // type's properties
-                
-            });*/
+            modelBuilder.Entity<LogException>()
+                .HasKey(p => p.LogExceptionId);
+
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RHZGmoDQ1Mld8OSUK5IpiurRCxS3qZKak1suYU1la1ypozjyB5NfpFOVetJQYZhMB9i/jR/t+A51C/EXbN856Q==",
+  "dgSpecHash": "5gtX18PcVlRjTd3cHBsy6WicXqRUM5qSTWrVtKGr++oH34XnWcHvip08cEQeQzeVF5DgqQYa+0DOCjXsNbT6Ug==",
   "success": true,
-  "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+  "projectFilePath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.1\\fluentvalidation.aspnetcore.8.6.1.nupkg.sha512",
@@ -55,9 +55,9 @@
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.codeanalysis.razor\\2.1.0\\microsoft.codeanalysis.razor.2.1.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.0\\microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.0\\microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.0\\microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.6\\microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.configuration\\2.2.0\\microsoft.extensions.configuration.2.2.0.nupkg.sha512",

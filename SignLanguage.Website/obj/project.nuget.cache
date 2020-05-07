@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WgHptUQnwNa7dFR4tWyirujipYj2AYOrLeAtcvXiE5Mq2ECN2LQjvAk1Ge397NYiCheOUq2xIzrbCYydxPOWNQ==",
+  "dgSpecHash": "lpzNXlIqHN9oTQhmMmO0thDaSB0TfFaaoxRURuQjieRw/gjV2GvRMEh6qgM8gaUSp7ZLDgC/dCmkEmoCniUc9w==",
   "success": true,
-  "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
+  "projectFilePath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.1\\fluentvalidation.aspnetcore.8.6.1.nupkg.sha512",
@@ -111,9 +111,9 @@
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\2.8.0\\microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.0\\microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.0\\microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.0\\microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.6\\microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.2.0\\microsoft.entityframeworkcore.design.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\2.2.0\\microsoft.entityframeworkcore.inmemory.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.0\\microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",

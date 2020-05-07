@@ -67,6 +67,7 @@
     <Build Include="StoredProcedure\StartQuiz.sql" />
     <Build Include="StoredProcedure\GetIdWithMoreThan3BadMeaning.sql" />
     <Build Include="Table\UsersScoreQuiz.sql" />
+    <Build Include="Table\LogException.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="InsertData\InsertData.sql" />

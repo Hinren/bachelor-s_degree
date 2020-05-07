@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj": {}
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj": {}
   },
   "projects": {
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "projectName": "SignLanguage.EF",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,7 +44,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.2.6, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
         "projectName": "SignLanguage.Logic",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -94,11 +94,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
-                "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj"
+              "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+                "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj"
               },
-              "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
-                "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj"
+              "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+                "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj"
               }
             }
           }
@@ -114,7 +114,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.2.6, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -137,14 +137,14 @@
         }
       }
     },
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "projectName": "SignLanguage.Models",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -212,14 +212,14 @@
         }
       }
     },
-    "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj": {
+    "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
+        "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
         "projectName": "SignLanguage.Website",
-        "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
+        "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
         "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-        "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\obj\\",
+        "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -239,14 +239,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
-                "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj"
+              "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj": {
+                "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.EF\\SignLanguage.EF.csproj"
               },
-              "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
-                "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj"
+              "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj": {
+                "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj"
               },
-              "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
-                "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj"
+              "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj": {
+                "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj"
               }
             }
           }
