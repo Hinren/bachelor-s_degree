@@ -8,7 +8,7 @@ namespace SignLanguage.EF
     {
         public int Id { get; set; }
         public string IdUser { get; set; }
-        public int HowManyQustion { get; set; }
-        public decimal EffectivenessInPercent { get; set; }
+        public int HowManyQuestions { get; set; }
+        public int HowManyCorrect { get; set; }
     }
 }

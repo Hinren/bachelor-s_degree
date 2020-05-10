@@ -26,7 +26,6 @@ namespace SignLanguage.EF
         public DbQuery<GetIdWithMoreThan3BadMeaning> GetIdWithMoreThan3BadMeaning { get; set; }
         public DbQuery<StartQuiz> StartQuiz { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<BadMeaningWords>()
@@ -40,24 +39,6 @@ namespace SignLanguage.EF
 
             modelBuilder.Entity<LogException>()
                 .HasKey(p => p.LogExceptionId);
-        }
-
-        public override int SaveChanges()
-        {
-            var errors = ChangeTracker
-               .Entries()
-               .Where(e =>  e.State != EntityState.Unchanged)
-               .Select(e => e.Metadata.Name)
-               .Distinct()
-               .ToList();
-
-            if (errors.Any())
-            {
-                throw new InvalidOperationException(
-                    $"Attempted to save read-only entities {string.Join(",", errors)}");
-            }
-
-            return base.SaveChanges();
         }
     }
 }

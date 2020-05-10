@@ -2,21 +2,23 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using ServiceStack;
 using SignLanguage.EF;
 using SignLanguage.EF.Models;
+using SignLanguage.EF.Repository;
 
 namespace SignLanguage.Website.Controllers
 {
     public class ErrorController : BaseController
     {
-        private readonly SignLanguageContex databaseContex;
+        private UnitOfWork databaseContex;
 
-        public ErrorController(SignLanguageContex databaseContex)
+        public ErrorController(UnitOfWork databaseContex)
         {
             this.databaseContex = databaseContex;
         }
 
-        [Route("Error")]
+        [Microsoft.AspNetCore.Mvc.Route("Error")]
         [AllowAnonymous]
         public IActionResult Error()
         {
@@ -28,7 +30,7 @@ namespace SignLanguage.Website.Controllers
                 logException.ExceptionPath = exceptionDetails.Path;
                 logException.ExceptionMessage = exceptionDetails.Error.Message;
                 logException.When = DateTime.Now;
-                databaseContex.LogExceptions.Add(logException);
+                databaseContex.LogExceptionRepository.Add(logException);
 
                 databaseContex.SaveChanges();
             }
