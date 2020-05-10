@@ -6,7 +6,6 @@ using System.Text;
 
 namespace SignLanguage.Models
 {
-    [Validator(typeof(UserRegisterValidation))]
     public class UserRegister
     {
         [DisplayName("Login")]

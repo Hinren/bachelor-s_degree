@@ -23,7 +23,6 @@ namespace SignLanguage.Website.Areas.Learning.Controllers
         [HttpGet]
         public ActionResult Learn()
         {
-            throw new Exception("dupa");
             var goodMeaningWords = unitOfWork.GoodMeaningWordsRepository.GetOverview();
 
             return View(goodMeaningWords);

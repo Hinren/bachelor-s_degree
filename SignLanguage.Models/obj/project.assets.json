@@ -9803,11 +9803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+      "projectUniqueName": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
       "projectName": "SignLanguage.Models",
-      "projectPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
+      "projectPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\SignLanguage.Models.csproj",
       "packagesPath": "C:\\Users\\patryk\\.nuget\\packages\\",
-      "outputPath": "d:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
+      "outputPath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

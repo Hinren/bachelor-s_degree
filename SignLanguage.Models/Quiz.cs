@@ -1,4 +1,6 @@
-﻿namespace SignLanguage.Models
+﻿
+namespace SignLanguage.Models
+
 {
     public class Quiz
     {

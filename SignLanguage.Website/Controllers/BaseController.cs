@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using ServiceStack;
 
 namespace SignLanguage.Website.Controllers
 {
@@ -12,13 +13,18 @@ namespace SignLanguage.Website.Controllers
     {
         public override void OnActionExecuting(ActionExecutingContext actionExecutingContex)
         {
-            string name = (string)actionExecutingContex.RouteData.Values["Controller"];
-            string action = (string)actionExecutingContex.RouteData.Values["Action"];
-            string httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
-            //Save later to database all activity users on website
-            
+            //Think about it more how i can solver this another way
+            if (User.Identity.Name != null)
+            {
+                string name = (string)actionExecutingContex.RouteData.Values["Controller"];
+                string action = (string)actionExecutingContex.RouteData.Values["Action"];
+                string httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
+                var userId = User.Identity.Name;
+            }
+
             base.OnActionExecuting(actionExecutingContex);
         }
+
 
         #region displaying messages
 

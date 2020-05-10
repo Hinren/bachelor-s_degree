@@ -51,3 +51,5 @@ D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignL
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.csproj.CopyComplete
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.dll
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\obj\Debug\netcoreapp2.2\SignLanguage.Logic.pdb
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Extension.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Logic\bin\Debug\netcoreapp2.2\SignLanguage.Extension.pdb

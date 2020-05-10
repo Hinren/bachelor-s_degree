@@ -120,3 +120,5 @@ D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp2.2\Sig
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.pdb
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.genruntimeconfig.cache
 D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\obj\Debug\netcoreapp2.2\SignLanguage.Website.csproj.CoreCompileInputs.cache
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Extension.dll
+D:\REPOSITORY\bachelor-s_degree\SignLanguage.Website\bin\Debug\netcoreapp2.2\SignLanguage.Extension.pdb

@@ -861,6 +861,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "2.2.6",
+          "SignLanguage.Extension": "1.0.0",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
@@ -868,6 +869,14 @@
         },
         "compile": {
           "SignLanguage.EF.dll": {}
+        }
+      },
+      "SignLanguage.Extension/1.0.0": {
+        "runtime": {
+          "SignLanguage.Extension.dll": {}
+        },
+        "compile": {
+          "SignLanguage.Extension.dll": {}
         }
       },
       "SignLanguage.Logic/1.0.0": {
@@ -4345,6 +4354,11 @@
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
     "SignLanguage.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SignLanguage.Extension/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

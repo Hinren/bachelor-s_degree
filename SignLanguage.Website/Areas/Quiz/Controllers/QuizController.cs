@@ -2,7 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SignLanguage.EF;
+using SignLanguage.Extension;
 using SignLanguage.Logic;
+using SignLanguage.Models;
+using SignLanguage.Website.Areas.Quiz.Models;
 using SignLanguage.Website.Controllers;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,39 +15,50 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
     [Area("Quiz")]
     public class QuizController : BaseController
     {
-        private readonly SignLanguageContex databaseContext;
+        private readonly UnitOfWork unitOfWork;
 
-        public QuizController(SignLanguageContex databaseContext)
+        public QuizController(UnitOfWork unitOfWork)
         {
-            this.databaseContext = databaseContext;
+            this.unitOfWork = unitOfWork;
         }
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
-            List<StartQuiz> badMeaningWords = new List<StartQuiz>();
+            var goodMeaningWords = unitOfWork.GoodMeaningWordsRepository.Get10RandomWordsThatHaveAtLeast3BadMeaning();
 
-            PrepareDataToStartQuiz prepareDataToStartQuiz = new PrepareDataToStartQuiz();
-
-            var goodMeaningWords = databaseContext.Query<GetIdWithMoreThan3BadMeaning>()
-                .AsNoTracking()
-                .FromSql(string.Format("EXECUTE GetIdWithMoreThan3BadMeaning")).ToList();
-
-            foreach (var words in goodMeaningWords)
+            var quizess = new List<QuizViewModel>();
+            foreach (var goodMeaningWord in goodMeaningWords)
             {
-                #pragma warning disable EF1000 // Possible SQL injection vulnerability.
-                badMeaningWords.AddRange(databaseContext.Query<StartQuiz>()
-                    .AsNoTracking()
-                    .FromSql(string.Format("EXECUTE StartQuiz " + words.IdGoodMeaningWord.ToString()))
-                #pragma warning restore EF1000 // Possible SQL injection vulnerability.
-                    .ToList());
+                var quizData = new List<QuizData>();
+                var select3RandomBadMeaning = goodMeaningWord.BadMeaningWords.Shuffle(3);
+                
+                foreach (var badMeaning in select3RandomBadMeaning)
+                {
+                    quizData.Add(
+                        new QuizData 
+                        { 
+                            IsCorrect = false, 
+                            Meaning = badMeaning.Meaning 
+                        });
+                }
+
+                quizData.Add(
+                    new QuizData 
+                    { 
+                        IsCorrect = true, 
+                        Meaning = goodMeaningWord.Meaning 
+                    });
+
+                quizess.Add(
+                    new QuizViewModel
+                    {
+                        Url = goodMeaningWord.Url,
+                        Quizzes = quizData.Shuffle().ToList()
+                    });
             }
-
-            var finalData = prepareDataToStartQuiz.GetFinalData(badMeaningWords, goodMeaningWords);
-
-
-           return View(finalData);
+           return View(quizess);
        }
 
        [HttpPost]

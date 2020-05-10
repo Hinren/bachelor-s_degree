@@ -33,8 +33,7 @@ namespace SignLanguage.Website
             services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
             {
                 options.User.RequireUniqueEmail = true;
-            }).AddEntityFrameworkStores<IdentityAppContex>()
-             .AddUserManager<MyManager>();
+            }).AddEntityFrameworkStores<IdentityAppContex>();
 
             services.AddDistributedMemoryCache();
 

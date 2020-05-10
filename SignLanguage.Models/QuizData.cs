@@ -4,7 +4,9 @@ using System.Text;
 
 namespace SignLanguage.Models
 {
-    class UserLoginValidation
+    public class QuizData
     {
+        public string Meaning { get; set; }
+        public bool IsCorrect { get; set; }
     }
 }

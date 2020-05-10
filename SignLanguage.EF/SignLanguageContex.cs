@@ -23,6 +23,7 @@ namespace SignLanguage.EF
         public DbSet<GoodMeaningWords> GoodMeaningWords { get; set; }
         public DbSet<UsersScoreQuiz> UsersScoreQuiz { get; set; }
         public DbSet<LogException> LogExceptions { get; set; }
+        public DbSet<ActivityOnWebsite> ActivityOnWebsites { get; set; }
         public DbQuery<GetIdWithMoreThan3BadMeaning> GetIdWithMoreThan3BadMeaning { get; set; }
         public DbQuery<StartQuiz> StartQuiz { get; set; }
 
@@ -39,6 +40,9 @@ namespace SignLanguage.EF
 
             modelBuilder.Entity<LogException>()
                 .HasKey(p => p.LogExceptionId);
+
+            modelBuilder.Entity<ActivityOnWebsite>()
+                .HasKey(p => p.ActivityOnWebsiteId);
         }
     }
 }

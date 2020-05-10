@@ -9,6 +9,8 @@ namespace SignLanguage.EF
     public class UnitOfWork : IDisposable
     {
         private SignLanguageContex databaseContex;
+        private bool disposed = false;
+
         public UnitOfWork(SignLanguageContex databaseContex)
         {
             this.databaseContex = databaseContex;
@@ -17,13 +19,24 @@ namespace SignLanguage.EF
         #region Support for each repository
         
         IRepository<BadMeaningWords> badMeaningWordsRepository = null;
-        IRepository<GoodMeaningWords> goodMeaningWordsRepository = null;
+        IGoodMeaningWordsRepository<GoodMeaningWords> goodMeaningWordsRepository = null;
         IRepository<LogException> logExceptionRepository = null;
         IRepository<UsersScoreQuiz> usersScoreQuizRepository = null;
+        IRepository<ActivityOnWebsite> activityOnWebsite = null;
 
         #endregion
 
         #region Set get for each repository
+
+        public IRepository<ActivityOnWebsite> ActivityOnWebsite
+        {
+            get
+            {
+                if (activityOnWebsite == null)
+                    activityOnWebsite = new ActivityOnWebsiteRepository(databaseContex);
+                return activityOnWebsite;
+            }
+        }
 
         public IRepository<UsersScoreQuiz> UsersScoreQuizRepository
         {
@@ -45,7 +58,7 @@ namespace SignLanguage.EF
             }
         }
 
-        public IRepository<GoodMeaningWords> GoodMeaningWordsRepository
+        public IGoodMeaningWordsRepository<GoodMeaningWords> GoodMeaningWordsRepository
         {
             get
             {
@@ -71,7 +84,6 @@ namespace SignLanguage.EF
         {
             databaseContex.SaveChanges();
         }
-        private bool disposed = false;
         protected virtual void Dispose(bool disposing)
         {
             if (!this.disposed)

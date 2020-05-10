@@ -9,5 +9,6 @@ namespace SignLanguage.EF
         public int IdGoodMeaningWord { get; set; }
         public string Meaning { get; set; }
         public string Url { get; set; }
+        public List<BadMeaningWords> BadMeaningWords { get; set; }
     }
 }

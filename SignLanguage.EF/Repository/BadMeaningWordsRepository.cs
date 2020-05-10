@@ -24,6 +24,7 @@ namespace SignLanguage.EF.Repository
             databaseContex.BadMeaningWords.Remove(entity);
         }
 
+
         public BadMeaningWords GetDetail(Func<BadMeaningWords, bool> predicate)
         {
             return databaseContex.BadMeaningWords.FirstOrDefault(predicate);
