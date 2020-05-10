@@ -57,15 +57,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Table" />
-    <Folder Include="StoredProcedure" />
     <Folder Include="InsertData" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Users.sql" />
     <Build Include="Table\GoodMeaningWords.sql" />
     <Build Include="Table\BadMeaningWords.sql" />
-    <Build Include="StoredProcedure\StartQuiz.sql" />
-    <Build Include="StoredProcedure\GetIdWithMoreThan3BadMeaning.sql" />
     <Build Include="Table\UsersScoreQuiz.sql" />
     <Build Include="Table\LogException.sql" />
   </ItemGroup>
