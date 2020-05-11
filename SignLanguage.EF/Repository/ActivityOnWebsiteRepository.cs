@@ -41,5 +41,6 @@ namespace SignLanguage.EF.Repository
                 return databaseContex.ActivityOnWebsites.ToList();
             }
         }
+
     }
 }

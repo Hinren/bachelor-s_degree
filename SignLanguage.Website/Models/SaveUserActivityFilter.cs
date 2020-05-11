@@ -21,14 +21,13 @@ namespace SignLanguage.Website.Filter
             this.databaseContex = databaseContex;
         }
 
-        public async void OnActionExecuted(ActionExecutedContext actionExecutingContex)
+        public  void OnActionExecuted(ActionExecutedContext actionExecutingContex)
         {
             if (actionExecutingContex.HttpContext.User.Identity.IsAuthenticated)
             {
                 ActivityOnWebsite activityOnWebsite = new ActivityOnWebsite();
-                ApplicationUser currentlyUser = await userManager.FindByNameAsync(actionExecutingContex.HttpContext.User.Identity.Name);
 
-                activityOnWebsite.Userid = currentlyUser.UserId;
+                activityOnWebsite.Userid = GetUserId(actionExecutingContex.HttpContext.User.Identity.Name).Result;
                 activityOnWebsite.Controller = (string)actionExecutingContex.RouteData.Values["Controller"];
                 activityOnWebsite.ActionName = (string)actionExecutingContex.RouteData.Values["Action"];
                 activityOnWebsite.httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
@@ -36,13 +35,18 @@ namespace SignLanguage.Website.Filter
 
                 databaseContex.ActivityOnWebsite.Add(activityOnWebsite);
                 databaseContex.SaveChanges();
-                databaseContex.Dispose();
             }
         }
 
         public void OnActionExecuting(ActionExecutingContext context)
         {
 
+        }
+
+        public async Task<string> GetUserId(string userName)
+        {
+            var user = await userManager.FindByNameAsync(userName);
+            return user.UserId;
         }
     }
 }

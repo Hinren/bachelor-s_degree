@@ -58,7 +58,7 @@ namespace SignLanguage.Website.Areas.Quiz.Controllers
                         Quizzes = quizData.Shuffle().ToList()
                     });
             }
-           return View(quizess);
+            return View(quizess);
        }
 
        [HttpPost]
