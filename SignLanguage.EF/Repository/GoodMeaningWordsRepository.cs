@@ -39,7 +39,6 @@ namespace SignLanguage.EF.Repository
                     selectedWordsToStartQuiz.Add(goodMeaningWord);
                 }
             }
-
             return selectedWordsToStartQuiz.Shuffle(10).ToList();
         }
 

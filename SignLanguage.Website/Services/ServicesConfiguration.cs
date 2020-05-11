@@ -6,6 +6,7 @@ using SignLanguage.EF;
 using SignLanguage.EF.Models;
 using SignLanguage.EF.Repository;
 using SignLanguage.Models;
+using SignLanguage.Website.Filter;
 using SignLanguage.Website.Models;
 using System;
 using System.Collections.Generic;
@@ -26,7 +27,7 @@ namespace SignLanguage.Website.Services
             services.AddScoped<IRepository<LogException>, LogExceptionRepository>();
             services.AddScoped<IRepository<BadMeaningWords>, BadMeaningWordsRepository>();
             services.AddScoped<IRepository<UsersScoreQuiz>, UsersScoreQuizRepository>();
-
+            services.AddScoped<SaveUserActivityFilter>();
             #endregion
 
             #region Validation fluent

@@ -6,26 +6,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using ServiceStack;
+using SignLanguage.EF;
+using SignLanguage.Website.Filter;
 
 namespace SignLanguage.Website.Controllers
 {
+    [ServiceFilter(typeof(SaveUserActivityFilter))]
     public class BaseController : Controller
     {
-        public override void OnActionExecuting(ActionExecutingContext actionExecutingContex)
-        {
-            //Think about it more how i can solver this another way
-            if (User.Identity.Name != null)
-            {
-                string name = (string)actionExecutingContex.RouteData.Values["Controller"];
-                string action = (string)actionExecutingContex.RouteData.Values["Action"];
-                string httpTypeAction = actionExecutingContex.HttpContext.Request.Method;
-                var userId = User.Identity.Name;
-            }
-
-            base.OnActionExecuting(actionExecutingContex);
-        }
-
-
         #region displaying messages
 
         protected void SetMessageDanger(string text)
