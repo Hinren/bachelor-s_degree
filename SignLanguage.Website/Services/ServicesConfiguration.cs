@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SignLanguage.EF;
 using SignLanguage.EF.Models;
+using SignLanguage.EF.Paging;
 using SignLanguage.EF.Repository;
 using SignLanguage.Models;
 using SignLanguage.Website.Filter;

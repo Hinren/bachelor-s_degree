@@ -21,9 +21,9 @@ namespace SignLanguage.Website.Areas.Learning.Controllers
         }
 
         [HttpGet]
-        public ActionResult Learn()
+        public ActionResult Learn(int page = 1)
         {
-            var goodMeaningWords = unitOfWork.GoodMeaningWordsRepository.GetOverview();
+            var goodMeaningWords = unitOfWork.GoodMeaningWordsRepository.GetPaged(page, 10);
             return View(goodMeaningWords);
         }
     }
