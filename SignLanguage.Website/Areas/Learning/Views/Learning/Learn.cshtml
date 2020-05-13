@@ -23,51 +23,6 @@
     var finishIndex = Math.Min(Model.CurrentPage + 5, Model.PageCount);
 }
 
-<style>
-
-    .isDisabled {
-        color: currentColor;
-        cursor: not-allowed;
-        opacity: 0.5;
-        text-decoration: none;
-    }
-
-    .center {
-        text-align: center;
-    }
-
-    .pagination {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        margin: 0;
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 40px;
-    }
-
-        .pagination li {
-            display: inline-block;
-            list-style: none
-        }
-
-        .pagination a {
-            display: block;
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-            background-color: #fff;
-            text-align: center;
-            text-decoration: none;
-            color: #252525;
-            border-radius: 4px;
-            margin: 5px;
-            box-shadow: inset 0 5px 10px rgba(0,0,0,.1), 0 2px 5px rgba(0,0,0,.5);
-            transition: all .3s ease
-        }
-</style>
-
 <div class="row">
 
     @for (int i = 0; i < Model.Results.Count; i++)
@@ -86,10 +41,9 @@
 
 <br />
 <br />
-<br />
 
 <div class="row">
-    <div class="col-md-8 col-sm-8">
+    <div class="col-md-12 col-sm-12">
         @if (Model.PageCount > 1)
         {
             <ul class="pagination pull-right">
