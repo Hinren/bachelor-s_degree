@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gnZSB0L3VWiGPznGUmZb/yLfWwbJ4pbT3KCeI9WXcSNUwhBgPl9Dr7HnVul5ThZrIdqs4lU6pd+MFC6yLWTTSQ==",
+  "dgSpecHash": "xXNZC/OYU+9uP804S139ygKxqWB6ZAWyfLRJDnjcU/96vTnGNzNfJT2rJCcFrs10lIhLkgZDJ4+d+FAuJ1zO5w==",
   "success": true,
   "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Logic\\SignLanguage.Logic.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.6\\microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.6\\microsoft.entityframeworkcore.relational.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.configuration\\2.2.0\\microsoft.extensions.configuration.2.2.0.nupkg.sha512",

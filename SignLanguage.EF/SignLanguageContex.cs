@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SignLanguage.EF.Configuration;
 using SignLanguage.EF.Models;
 using System;
 using System.Linq;
@@ -24,25 +25,14 @@ namespace SignLanguage.EF
         public DbSet<UsersScoreQuiz> UsersScoreQuiz { get; set; }
         public DbSet<LogException> LogExceptions { get; set; }
         public DbSet<ActivityOnWebsite> ActivityOnWebsites { get; set; }
-        public DbQuery<GetIdWithMoreThan3BadMeaning> GetIdWithMoreThan3BadMeaning { get; set; }
-        public DbQuery<StartQuiz> StartQuiz { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<BadMeaningWords>()
-                .HasKey(p => p.IdBadMeaningWord);
-
-            modelBuilder.Entity<GoodMeaningWords>()
-                .HasKey(p => p.IdGoodMeaningWord);
-
-            modelBuilder.Entity<UsersScoreQuiz>()
-                .HasKey(p => p.Id);
-
-            modelBuilder.Entity<LogException>()
-                .HasKey(p => p.LogExceptionId);
-
-            modelBuilder.Entity<ActivityOnWebsite>()
-                .HasKey(p => p.ActivityOnWebsiteId);
+            modelBuilder.ApplyConfiguration(new ActivityOnWebsiteConfiguration());
+            modelBuilder.ApplyConfiguration(new BadMeaningWordsConfiguration());
+            modelBuilder.ApplyConfiguration(new GoodMeaningWordsConfigurations());
+            modelBuilder.ApplyConfiguration(new LogExceptionConfiguration());
+            modelBuilder.ApplyConfiguration(new UsersScoreQuizConfiguration());
         }
     }
 }

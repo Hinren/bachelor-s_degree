@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qXxAISQk196XKc85VNcg9BN8xGes/wply6J7gSqAnSUY2pqFwj5YNJqV5JOOvItjbZCwCApVosLyjwwiBHgMkA==",
+  "dgSpecHash": "k4xTCW/r6TE6uW3c3UyJHerFboJlMMYkt8Zvqn1BHyi5E88jfV+VeIH9XAJosWknVaJeVeMuzGj32BmdLrq9XQ==",
   "success": true,
   "projectFilePath": "D:\\REPOSITORY\\bachelor-s_degree\\SignLanguage.Website\\SignLanguage.Website.csproj",
   "expectedPackageFiles": [
@@ -116,7 +116,7 @@
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.6\\microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.2.0\\microsoft.entityframeworkcore.design.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\2.2.0\\microsoft.entityframeworkcore.inmemory.2.2.0.nupkg.sha512",
-    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.0\\microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
+    "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.2.6\\microsoft.entityframeworkcore.relational.2.2.6.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\2.2.0\\microsoft.entityframeworkcore.sqlserver.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\2.2.0\\microsoft.entityframeworkcore.tools.2.2.0.nupkg.sha512",
     "C:\\Users\\patryk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
