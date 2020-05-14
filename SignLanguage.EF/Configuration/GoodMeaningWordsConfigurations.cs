@@ -16,14 +16,17 @@ namespace SignLanguage.EF.Configuration
 
             builder.Property(e => e.IdGoodMeaningWord)
                 .HasColumnName("IdGoodMeaningWord")
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(e => e.Meaning)
                 .HasColumnName("Meaning")
+                .HasColumnType("nvarchar(50)")
                 .IsRequired();
 
             builder.Property(e => e.Url)
                 .HasColumnName("Url")
+                .HasColumnType("nchar(300)")
                 .IsRequired();
         }
     }

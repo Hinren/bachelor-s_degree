@@ -16,18 +16,22 @@ namespace SignLanguage.EF.Configuration
 
             builder.Property(e => e.Id)
                 .HasColumnName("Id")
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(e => e.IdUser)
                 .HasColumnName("IdUser")
+                .HasColumnType("nvarchar(150)")
                 .IsRequired();
 
             builder.Property(e => e.HowManyQuestions)
                 .HasColumnName("HowManyQustion")
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(e => e.HowManyCorrect)
                 .HasColumnName("EffectivenessInPercent")
+                .HasColumnType("int")
                 .IsRequired();
         }
     }

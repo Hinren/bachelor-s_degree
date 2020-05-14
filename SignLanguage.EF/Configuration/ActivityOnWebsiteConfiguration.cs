@@ -17,26 +17,32 @@ namespace SignLanguage.EF.Configuration
 
             builder.Property(e => e.ActivityOnWebsiteId)
                 .HasColumnName("ActivityOnWebsiteId")
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(e => e.Controller)
                 .HasColumnName("Controller")
+                .HasColumnType("nvarchar(25)")
                 .IsRequired();
 
             builder.Property(e => e.ActionName)
                 .HasColumnName("Action")
+                .HasColumnType("nvarchar(25)")
                 .IsRequired();
 
             builder.Property(e => e.httpTypeAction)
                .HasColumnName("httpTypeAction")
+               .HasColumnType("nvarchar(10)")
                .IsRequired();
 
             builder.Property(e => e.Userid)
                .HasColumnName("Userid")
+               .HasColumnType("nvarchar(max)")
                .IsRequired();
 
             builder.Property(e => e.When)
                .HasColumnName("When")
+               .HasColumnType("datetime")
                .IsRequired();
         }
     }
