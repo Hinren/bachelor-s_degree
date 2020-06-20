@@ -1,0 +1,40 @@
+﻿@model List<SignLanguage.EF.GoodMeaningWords>
+@using SignLanguage.Website.HtmlHelpers
+
+@{
+    ViewData["Title"] = "AddBadMeaningWord";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2 class="headertekst">Dodawanie nowych słówek do do rozbudowy quizu</h2>
+<hr />
+<br />
+@using (Html.BeginForm())
+{
+    @*@Html.AntiForgeryToken() *@
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.Label("Wybierz słowo dla którego chcesz uzupełnić odpowiedzi", null, htmlAttributes: new { @class = "control-label col-md-5" })
+
+            @Html.DropDownList(
+                "SelectedGoodMeaningWord",
+                new SelectList(
+                    Model.Select(x => new { Value = x.IdGoodMeaningWord, Text = x.Meaning }),
+                    "Value",
+                    "Text"
+                )
+                , new { @class = "control-label col-md-4" }
+            )
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Złe znaczenie", null, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-9">
+                @Html.TextBox("BadMeaning", null, new { @class = "form-control" })
+            </div>
+        </div>
+
+        @Html.InputAdd()
+
+    </div>
+}

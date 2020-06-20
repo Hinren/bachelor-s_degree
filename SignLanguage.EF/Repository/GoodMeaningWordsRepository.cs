@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using SignLanguage.EF.Paging;
 using SignLanguage.Extension;
@@ -24,6 +25,17 @@ namespace SignLanguage.EF.Repository
         public void Delete(GoodMeaningWords entity)
         {
             databaseContex.GoodMeaningWords.Remove(entity);
+            foreach (var badMeaning in databaseContex.BadMeaningWords.ToList())
+            {
+                if (badMeaning.IdGoodMeaningWord == entity.IdGoodMeaningWord)
+                {
+                    var select = databaseContex.BadMeaningWords.ToList()
+                        .Where(x => x.IdGoodMeaningWord == entity.IdGoodMeaningWord)
+                        .FirstOrDefault();
+
+                    databaseContex.BadMeaningWords.Remove(select);
+                }
+            }
         }
 
         public List<GoodMeaningWords> Get10RandomWordsThatHaveAtLeast3BadMeaning()

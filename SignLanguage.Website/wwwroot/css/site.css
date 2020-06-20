@@ -99,3 +99,12 @@ body {
         transition: all .3s ease
     }
 /*Pagination style*/
+
+
+h2.headertekst {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 224);
+}

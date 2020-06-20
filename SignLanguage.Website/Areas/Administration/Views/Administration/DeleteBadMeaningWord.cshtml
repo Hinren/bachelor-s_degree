@@ -1,0 +1,46 @@
+﻿@model List<SignLanguage.EF.GoodMeaningWords>
+@using SignLanguage.Website.HtmlHelpers
+
+
+@{
+    ViewData["Title"] = "DeleteBadMeaningWord";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="headertekst">Usuwanie złych znaczeń dla konkretnego słowa (quiz)</h2>
+<hr />
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+            @using (Html.BeginForm("Administration", "DeleteGoodMeaningWord", FormMethod.Post))
+            {
+                @*@Html.AntiForgeryToken() *@
+
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        @Html.Label("Wybierz słowo do usunięcia")
+                        @Html.DropDownList(
+                        "SelectedGoodMeaningWord",
+                        new SelectList(
+                            Model.Select(x => new { Value = x.IdGoodMeaningWord, Text = x.Meaning }),
+                            "Value",
+                            "Text"
+                        ),
+                        new { @class = "control-label col-md-4" }
+                    )
+
+
+                    </div>
+
+                </div>
+
+                @Html.InputDelete()
+
+            }
+        </div>
+    </div>
+</div>
+
